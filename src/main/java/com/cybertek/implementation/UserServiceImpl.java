@@ -60,6 +60,7 @@ public class UserServiceImpl implements UserService {
 
     }
 
+    //hard deleted
     @Override
     public void deleteByUserName(String username) {
         userRepository.deleteByUserName(username);
